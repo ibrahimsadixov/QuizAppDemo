@@ -1,0 +1,18 @@
+
+@media (max-width: 960px) {
+    .navContainer ul a{
+        font-size: .7rem !important;
+    }
+    .navContainer ul a p{
+        font-size: .7rem !important;
+    }
+    .navContainer{
+        flex-direction: column-reverse !important;
+        justify-content: center !important;
+    }
+    #search{
+        width: 75% !important;
+    }
+  }
+  
+  

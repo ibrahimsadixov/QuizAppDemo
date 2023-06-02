@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/myQuizes.css">
+    <link rel="stylesheet" href="./assets/css/loading.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="shortcut icon" href="./quizAppLogo.svg" type="image/x-icon">
+    <title>Mənim Quizlərim</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navContainer">
+            <ul>
+
+                <a class="back link" href="./main.htm">Əsas Səhifə</a>
+                <a class="link result" href="./result.htm">Nəticələr</a>
+                <a class="logOut link"><p>Hesabdan</p> <p>Çıxış</p></a>
+
+                </ul>
+        </div>
+    </nav>
+
+    <div id="loadingIndicator" class="wave">
+        <div class="ball"></div>
+        <div class="ball"></div>
+        <div class="ball"></div>
+
+    </div>
+
+  
+    <div id="quizContainer"></div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./assets/js/myQuizes.js"></script>
+    <script src="./assets/js/logOut.js"></script>
+</body>
+
+</html>

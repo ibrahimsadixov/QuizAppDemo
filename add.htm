@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="shortcut icon" href="./quizAppLogo.svg" type="image/x-icon">
+    <title>Quiz Əlavə Et!</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="navContainer">
+            <ul>
+
+                <a class="back link" href="./main.htm">Əsas Səhifə</a>
+                <a class="myQuizes link" href="./myQuizes.htm">Quizlərim</a>
+                <a class="link result" href="./result.htm">Nəticələr</a>
+                <a class="link logOut"><p>Hesabdan</p> <p>Çıxış</p></a>
+
+                </ul>
+        </div>
+    </nav>
+    
+    <div class="creatingPage">
+        <input type="text" id="quizName" placeholder="Quiz Adı">
+
+        <button class="button" id="questionAdd">Sual Əlavə Et</button>
+
+        <div class="bottom">
+
+        <button id="create" type="submit"> Təsqdiqlə </button>
+
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./assets/js/create.js"></script>
+    <script src="./assets/js/logOut.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #131313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 400px;
+    gap: 30px;
+    border: 1px solid #f1f1f1;
+    border-radius: 8px;
+}
+
+form input {
+    width: 80%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #f1f1f1;
+    padding-left: 15px;
+    color: white;
+}
+
+form button {
+    width: 30%;
+    height: 40px;
+    border: 1px solid #131313;
+    color: #131313;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    form {
+        width: 80%;
+    }
+
+}
+
+a {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#showPassword{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+#show{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #f1f1f1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#registerBtn{
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+#loginBtn{
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+
+

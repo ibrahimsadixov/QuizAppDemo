@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/signIn.css">
+    <link rel="shortcut icon" href="./quizAppLogo.svg" type="image/x-icon">
+    <title>Qeydiyyatdan Keç</title>
+</head>
+
+<body>
+
+
+    <a href="./index.htm">Daxil Ol</a>
+    <form id="register">
+
+        <input id="username" type="text" placeholder="İstifadəçi Adı">
+        <input class="password" id="password" type="password" placeholder="Şirfə">
+
+        <label id="show" for="showPassword">
+            <input id="showPassword" type="checkbox"> Şifrəni Göstər
+        </label>
+
+
+        <button id="registerBtn" type="submit">Qeydiyyatdan Keç</button>
+
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./assets/js/password.js"></script>
+    <script src="./assets/js/register.js"></script>
+
+</body>
+
+</html>
